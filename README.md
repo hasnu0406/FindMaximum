@@ -15,46 +15,17 @@ To write a program to find the maximum of a list of numbers.
 ## Program:
 
 i)	# To find the maximum of marks using the list method sort.
-```Python
-
-def max_marks(marks):
-    marks.sort()
-    large=marks[-1]
-    return large
-
-```
 
 ii)	# To find the maximum marks using the list method max().
-```Python
-def max_marks(marks):
-    large=max(marks)
-    return large
-
-
-```
 
 iii) # To find the maximum marks without using builtin functions.
-```Python
-def max_marks(list1):
-    max_num=list1[0]
-    for i in list1:
-        if i>max_num:
-            max_num=i
-    return max_num
-
-
-```
-
 
 
 ## Output 1:
-<img width="957" alt="Screenshot 2024-03-24 161637" src="https://github.com/hasnu0406/FindMaximum/assets/135305537/86360ba5-1d76-4ca1-83ac-e3d54dcf16dd">
 
 ## Output 2:
-<img width="903" alt="Screenshot 2024-03-24 161646" src="https://github.com/hasnu0406/FindMaximum/assets/135305537/36f8c741-7dd7-42bd-a47c-1a6fd94aa0fb">
 
 ## Output 3:
-<img width="911" alt="Screenshot 2024-03-24 161656" src="https://github.com/hasnu0406/FindMaximum/assets/135305537/673ff5b0-e0fc-4ed8-ab67-b7112bbca230">
 
 
 
